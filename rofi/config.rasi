@@ -1,0 +1,15 @@
+/* ── Rofi Config ──────────────────────────────
+   Location: ~/.config/rofi/config.rasi
+   Description: Basic configuration + theme import
+   ─────────────────────────────────────────── */
+
+configuration {
+    modi: "drun,run";                    // Available modes
+    show-icons: true;                    // Show app icons
+    font: "DejaVuSansM Nerd Font Mono";  // Global font
+}
+
+/* Import active theme */
+@theme "~/.config/rofi/theme.rasi"
+
+
