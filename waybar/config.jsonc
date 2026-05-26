@@ -1,0 +1,33 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-bottom": 0,
+  "modules-left": ["hyprland/workspaces", "hyprland/window"],
+  "modules-center": ["clock"],
+  "modules-right": ["pulseaudio", "network", "battery", "custom/powermenu"],
+  
+  "clock": {
+    "format": " 󰸗 {:%H:%M} ",
+    "tooltip-format": "{:%d %B %H:%M}"
+  },
+  "hyprland/workspaces": {
+    "format": "{name}"
+  },
+  "pulseaudio": {
+    "format": " {volume}% ",
+    "on-click": "pavucontrol"
+  },
+  "network": {
+    "format": "󰖩 ",
+    "tooltip-format": "{essid}",
+    "on-click" : "nm-connection-editor"
+  },
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""]
+  },
+  "custom/powermenu": {
+    "format": " ",
+    "on-click": "exec wlogout -p layer-shell"
+  }
+}

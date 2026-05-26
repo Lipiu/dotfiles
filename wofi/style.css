@@ -1,0 +1,47 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 14px;
+}
+
+window {
+    margin: 0px;
+    /* Muted fog-grey border */
+    border: 2px solid #5c707b; 
+    /* Deep forest-shadow background */
+    background-color: #24292e; 
+    border-radius: 10px;
+}
+
+#input {
+    margin: 10px;
+    padding: 8px;
+    border: none;
+    color: #d1d5da;
+    /* Subtle contrast for the input field */
+    background-color: #2d333b; 
+    border-radius: 6px;
+}
+
+#inner-box {
+    margin: 5px;
+}
+
+#outer-box {
+    margin: 10px;
+}
+
+#scroll {
+    margin: 5px;
+}
+
+#entry {
+    padding: 8px;
+    border-radius: 6px;
+    color: #959da5; /* Dimmer text for unselected items */
+}
+
+#entry:selected {
+    /* The highlight color matches the misty clouds */
+    background-color: #5c707b;
+    color: #ffffff;
+}

@@ -1,0 +1,18 @@
+show=drun
+prompt=Search...
+width=600
+height=400
+location=center
+allow_images=true
+image_size=24
+gtk_dark=true
+no_actions=true
+term=kitty
+
+# matching & behavior
+insensitive=true
+sort_order=alphabetical
+matching=fuzzy
+
+# keybind feel
+key_expand=Tab

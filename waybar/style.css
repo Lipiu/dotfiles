@@ -1,0 +1,21 @@
+* {
+  font-family: "Jetbrains Mono NerdFont";
+}
+#waybar {
+  background: #0a0a0a;
+  color: #fff;
+}
+#workspaces button.active {
+  color: #33ccff;
+}
+#custom-powermenu {
+  color: #f43f5e;
+}
+
+#pulseaudio, 
+#network, 
+#battery, 
+#custom-powermenu {
+    margin-left: 5px;
+    padding: 0 5px;
+}
